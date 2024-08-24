@@ -25,10 +25,23 @@
     - method : hard
 
 ### automl/submission-3
-- 사용한 알고리즘 명 : 앙상블(Random Forest, Extra Trees, Lightgbm Boost)
-- Score : 0.16617842876165115
-- hyperparameter
-    - fold : 20
-    - method : hard
+- 언더샘플링
+- 사용한 알고리즘 명 : 앙상블
+    - RandomForestClassifier
+    - ExtraTreesClassifier
+    - GradientBoostingClassifier
+    - LGBMClassifier
+    - DecisionTreeClassifier
+    
+- Score : 0.16560170394036208
 
--> 점수가 동일함 fold의 차이는 크게 나지 않는 것으로 보임
+### automl/submission-4
+- 모든 데이터 사용
+- 사용한 알고리즘 명 : 앙상블
+    - RandomForestClassifier
+    - ExtraTreesClassifier
+    - LGBMClassifier
+    - GradientBoostingClassifier
+
+
+- Score : 0.0898876404494382
