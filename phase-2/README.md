@@ -43,5 +43,123 @@
     - LGBMClassifier
     - GradientBoostingClassifier
 
-
 - Score : 0.0898876404494382
+
+### automl/submission-5
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- 사용한 알고리즘 : 앙상블
+    - RandomForestClassifier
+    - LGBMClassifier
+    - ExtraTreesClassifier
+    - GradientBoostingClassifier
+
+- Score : 0.16534260178748758
+
+### automl/submission-6
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- 사용한 알고리즘 : RidgeClassifier
+
+- Score : 0.16737160120845923
+
+### automl/submission-7
+- 언더 샘플링
+- 변수 importance를 이용해 상위 7개의 col을 이용
+- 사용한 알고리즘 : 앙상블
+    - GradientBoostingClassifier
+    - ExtraTreesClassifier
+
+- Score : 0.08****
+
+
+### automl/submission-8
+- 언더 샘플링
+- pca 기법을 이용
+- 사용한 알고리즘 : 앙상블
+    - AdaBoostClassifier
+    - GradientBoostingClassifier
+    - LGBMClassifier
+
+- Score : 0.1610808002078462
+
+### automl/submission-9
+- 언더 샘플링
+- pca 기법을 이용
+- 사용한 알고리즘 : 앙상블
+    - AdaBoostClassifier
+    - GradientBoostingClassifier
+    - LGBMClassifier
+    - LinearDiscriminantAnalysis
+    - RidgeClassifier
+
+- Score : 0.164****
+
+### automl/submission-10
+- 언더 샘플링
+- pca 기법을 이용
+- 사용한 알고리즘 : RidgeClassifier
+
+- Score : 0.16333725029377205
+
+
+### automl/submission-11
+- 언더 샘플링
+- pca 기법을 이용
+- 사용한 알고리즘 : 앙상블
+    - LinearDiscriminantAnalysis
+    - RidgeClassifier
+    - LGBMClassifier\
+    - AdaBoostClassifier
+    - GradientBoostingClassifier
+    - RandomForestClassifier
+    - ExtraTreesClassifier
+    - KNeighborsClassifier
+    - DecisionTreeClassifier
+    - LogisticRegression
+
+- Score : 0.16732394366197184
+
+### automl/submission-12
+- 언더 샘플링(normal 3 : abnormal 1)
+- pca 기법을 이용
+- 사용한 알고리즘 : 앙상블
+    - LinearDiscriminantAnalysis
+    - RidgeClassifier
+    - LGBMClassifier\
+    - AdaBoostClassifier
+    - GradientBoostingClassifier
+    - RandomForestClassifier
+    - ExtraTreesClassifier
+    - KNeighborsClassifier
+    - DecisionTreeClassifier
+    - LogisticRegression
+
+- Score : 0.138***
+
+### automl/submission-12
+- 언더 샘플링(normal 3 : abnormal 1)
+- pca 기법을 이용
+- 사용한 알고리즘 : 앙상블
+    - LinearDiscriminantAnalysis
+    - RidgeClassifier
+    - LGBMClassifier\
+    - AdaBoostClassifier
+    - GradientBoostingClassifier
+    - RandomForestClassifier
+    - ExtraTreesClassifier
+    - KNeighborsClassifier
+    - DecisionTreeClassifier
+    - LogisticRegression
+
+- Score : 0.138***
+
+
+### automl/submission-14
+- Data Augmentation
+- 사용한 알고리즘 : 앙상블
+    - GradientBoostingClassifier
+    - AdaBoostClassifier
+    - RandomForestClassifier
+
+- Score : 0.0999999*
