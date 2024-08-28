@@ -162,4 +162,77 @@
     - AdaBoostClassifier
     - RandomForestClassifier
 
+- Data Augmentation을 진행했는데 상당히 좋지 않음
+
 - Score : 0.0999999*
+
+### automl/submission-15
+- 언더샘플링
+    - abnormal 1 : normal 0.5
+- 사용한 알고리즘 : 앙상블
+    - GradientBoostingClassifier
+    - AdaBoostClassifier
+    - RandomForestClassifier
+
+- Score : 0.1266283793248354
+
+### automl/submission-16
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- 사용한 알고리즘 : Ridge Classifier
+    - train 8 : valid 2
+    - 임계점 0.5
+
+- Score : 0.1620689655172414
+
+### automl/submission-16
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- 사용한 알고리즘 : Ridge Classifier
+    - train 6 : valid 4
+    - 임계점 0.5
+
+- Score : 0.161***
+
+### automl/submission-18
+- 언더 샘플링
+- pca n_component=0.95
+- 사용한 알고리즘 : 앙상블
+    - train 6 : valid 4
+    - 임계점 0.5
+
+- Score : 0.127***
+
+### automl/submission-19
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- normal 1.0 : abnormal 0.9
+- 사용한 알고리즘 : ExtraTreesClassifier
+
+- Score : 0.167875
+
+### automl/submission-20
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- normal 1.0 : abnormal 0.9
+- 사용한 알고리즘 : AdaBoostClassifier
+
+- Score : 0.167875
+
+### automl/submission-21
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- normal 1.2 : abnormal 0.9
+- 사용한 알고리즘 : RidgeClassifier
+
+- Score : 0.16951566951566951
+
+### automl/submission-22
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- normal 1.5 : abnormal 0.9
+- 사용한 알고리즘 : 앙상블
+    - GradientBoostingClassifier
+    - RandomForestClassifier
+
+- Score : 0.16951566951566951
