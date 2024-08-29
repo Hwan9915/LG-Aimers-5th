@@ -235,4 +235,35 @@
     - GradientBoostingClassifier
     - RandomForestClassifier
 
-- Score : 0.16951566951566951
+- Score : 0.160*
+
+### automl/submission-23
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- normal 1.5 : abnormal 0.9
+- 사용한 알고리즘 : Ridge
+
+- Score : 0.169114374
+
+
+### automl/submission-25
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- normal 1.5 : abnormal 0.9
+- 사용한 알고리즘 : Ridge
+    - hyperparameter alpha : 1 -> 100
+
+- 0.001 상승
+- Score : 0.17074440395627277
+
+
+
+### automl/submission-26
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용
+- normal 1.2 : abnormal 0.9
+- 사용한 알고리즘 : Ridge
+    - hyperparameter alpha : 1 -> 100
+
+- 0.001 상승
+- Score : 0.1671619613670134
