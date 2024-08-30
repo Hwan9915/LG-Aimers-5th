@@ -267,3 +267,19 @@
 
 - 0.001 상승
 - Score : 0.1671619613670134
+
+### automl/submission-27
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용 (Importance)
+- normal 1.2 : abnormal 0.9
+- 사용한 알고리즘 : Ridge
+
+- Score : 0.16586091483822984
+
+### automl/submission-28
+- 언더 샘플링
+- 성준님께서 처리하신 전처리 데이터셋을 이용 (Importance)
+- normal 1.0 : abnormal 0.9
+- 사용한 알고리즘 : Ridge
+
+- Score : 0.16586091483822984
